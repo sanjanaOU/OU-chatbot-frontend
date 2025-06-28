@@ -77,7 +77,7 @@ const ChatBot = () => {
 
   const getGPTFallback = async (msg) => {
     try {
-      const res = await axios.post('http://localhost:5000/chat', { message: msg });
+      const res = await axios.post('https://ou-chatbot-backend1.onrender.com/chat', { message: msg });
       return res.data.reply;
     } catch (err) {
       console.error('❌ GPT Fallback Error:', err);
