@@ -1,0 +1,167 @@
+/* Global reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('./assets/oulib.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Header styling */
+.app {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.header {
+  padding: 20px 0;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.logo {
+  height: 80px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #eee;
+  margin-top: -10px;
+}
+
+/* Glassmorphism Chat Container */
+.chat-wrapper {
+  max-width: 700px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Chat display area */
+.chat-box {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.user-msg {
+  text-align: right;
+  color: #c9d1ff;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.bot-msg {
+  text-align: left;
+  color: #afffaf;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Suggestions */
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.suggestions button {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  font-weight: 500;
+}
+
+.suggestions button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+
+/* Input + buttons */
+.chat-input-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.chat-input-area input[type="text"] {
+  flex: 1;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.chat-input-area button {
+  padding: 12px 14px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  color: white;
+  font-weight: bold;
+}
+
+.chat-input-area button:nth-child(2) { background-color: #940000; }     /* Send */
+.chat-input-area button:nth-child(3) { background-color: #007acc; }     /* Mic */
+.chat-input-area button:nth-child(4) { background-color: #222; }        /* PDF */
+
+.chat-input-area button:hover {
+  opacity: 0.9;
+}
+
+/* Scrollbar */
+.chat-box::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 600px) {
+  .chat-wrapper {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .chat-box {
+    max-height: 300px;
+  }
+
+  .chat-input-area {
+    flex-direction: column;
+  }
+
+  .chat-input-area input[type="text"],
+  .chat-input-area button {
+    width: 100%;
+  }
+
+  .suggestions {
+    flex-direction: column;
+    align-items: center;
+  }
+}

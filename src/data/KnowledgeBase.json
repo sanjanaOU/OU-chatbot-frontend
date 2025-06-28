@@ -1,0 +1,75 @@
+{
+    "Admissions FAQs": {
+      "How do I apply to the University of Oklahoma?": "You can apply online at https://www.ou.edu/admissions/apply.",
+      "What documents are required for undergraduate admission?": "You'll need transcripts, ACT/SAT scores, and a completed application form. Details: https://www.ou.edu/admissions/undergraduate/requirements",
+      "What is the application fee?": "The undergraduate application fee is $40. Fee waivers are available: https://www.ou.edu/admissions/apply/fee-waiver",
+      "Is there an Early Action option?": "Yes, the Early Action deadline is November 1. Learn more at https://www.ou.edu/admissions/apply/deadlines",
+      "Do I need to submit SAT/ACT scores?": "OU is test-optional through 2025. See test policy: https://www.ou.edu/admissions/test-optional",
+      "What is OU's institution code for SAT?": "OU's SAT code is 6879. See: https://www.ou.edu/admissions",
+      "What is the ACT code for OU?": "OU's ACT code is 3444. Learn more: https://www.ou.edu/admissions"
+    },
+    "Application Deadlines": {
+      "When is the Fall 2025 application deadline?": "The Fall 2025 deadline is March 1. See all deadlines: https://www.ou.edu/admissions/apply/deadlines",
+      "What is the deadline for Spring 2025 admission?": "The Spring 2025 deadline is October 15. Details: https://www.ou.edu/admissions/apply/deadlines",
+      "What is the deadline for scholarship consideration?": "To be considered for scholarships, apply by December 15: https://www.ou.edu/admissions/scholarships",
+      "When is the enrollment deposit due?": "The enrollment deposit is due by May 1. Info: https://www.ou.edu/admissions/enroll",
+      "What are the graduate program deadlines?": "Deadlines vary by department. Check: https://www.ou.edu/gradcollege/future-students/application-process",
+      "When is the international application deadline for Fall 2025?": "It is February 1. Visit: https://www.ou.edu/international",
+      "When should I submit the FAFSA?": "Submit as early as October 1. More info: https://www.ou.edu/sfc"
+    },
+    "Tuition & Fee Info": {
+      "How much is undergraduate tuition?": "Tuition depends on residency. See the full breakdown here: https://www.ou.edu/bursar/tuition_and_fees",
+      "Are there any additional course fees?": "Yes, certain courses may have extra fees. Details: https://www.ou.edu/bursar/tuition_and_fees/fees",
+      "How can I pay my tuition bill?": "Tuition can be paid via One account. Guide: https://www.ou.edu/bursar/payments",
+      "Can I set up a payment plan?": "Yes, OU offers payment plans. Info: https://www.ou.edu/bursar/paymentoptions",
+      "How can I apply for financial aid?": "Start with the FAFSA at https://studentaid.gov and visit https://www.ou.edu/sfc",
+      "Are scholarships available for international students?": "Yes, see https://www.ou.edu/international/scholarships",
+      "How do I estimate my total cost of attendance?": "Use the Net Price Calculator: https://www.ou.edu/financialaid/npc"
+    },
+    "Housing": {
+      "How do I apply for on-campus housing?": "Housing applications can be submitted online at https://www.ou.edu/housingandfood",
+      "When can I move in for Fall 2025?": "Move-in dates are posted here: https://www.ou.edu/housingandfood/move-in",
+      "Are freshmen required to live on campus?": "Yes, all first-year students must live on campus unless exempt. Policy: https://www.ou.edu/housingandfood/freshman-housing-policy",
+      "What types of residence halls are available?": "Explore options here: https://www.ou.edu/housingandfood/residence-halls",
+      "What do I bring to the dorms?": "Check the packing list: https://www.ou.edu/housingandfood/move-in/checklist",
+      "Are meal plans required?": "Yes, for students living in residence halls. Info: https://www.ou.edu/housingandfood/meal-plans",
+      "Is there housing for graduate students?": "Yes, including Traditions Square. See: https://www.ou.edu/housingandfood/graduate-housing"
+    },
+    "Campus Maps / Facilities": {
+      "Where can I find a campus map?": "Interactive map is here: https://www.ou.edu/map",
+      "Where is the Bizzell Memorial Library located?": "Located at 401 W. Brooks Street. Map: https://www.ou.edu/map",
+      "Where is the OU Health Sciences Center?": "Located in Oklahoma City. Details: https://www.ouhsc.edu/",
+      "Where is the student union?": "The Oklahoma Memorial Union is at 900 Asp Ave. Info: https://www.ou.edu/union",
+      "Where is the fitness center?": "The Huston Huffman Center info: https://www.ou.edu/far/hh",
+      "Where can I park on campus?": "See parking maps and permits here: https://www.ou.edu/parking",
+      "Is campus accessible for disabled students?": "Yes, ADA resources: https://www.ou.edu/drc"
+    },
+    "Student Support": {
+      "How do I contact IT support?": "OU IT help: https://www.ou.edu/ouit or call 405-325-HELP",
+      "Where can I find counseling services?": "Visit https://www.ou.edu/ucc for mental health support",
+      "Where is the OU Writing Center?": "Located in Wagner Hall. Info: https://www.ou.edu/writingcenter",
+      "What are the library hours?": "Library info: https://libraries.ou.edu/",
+      "How can I reach academic advising?": "Find your advising office: https://www.ou.edu/advising",
+      "How do I report a tech issue?": "Submit a ticket at https://www.ou.edu/ouit/help",
+      "Where can I access health services?": "Visit Goddard Health Center: https://www.ou.edu/healthservices"
+    },
+    "Course Catalog Info": {
+      "How do I search for courses at OU?": "Use the course catalog: https://www.ou.edu/cas/catalog",
+      "Where can I see prerequisites for courses?": "Prerequisites are listed in the course catalog.",
+      "How do I register for classes?": "Use One portal at https://one.ou.edu",
+      "Where can I find general education requirements?": "Check here: https://www.ou.edu/gened",
+      "What are the class sizes like?": "Most lower-division classes have 20\u201350 students; upper-division are smaller.",
+      "Can I take online classes?": "Yes, OU offers many online options. Browse: https://ou.edu/online",
+      "What is Canvas?": "Canvas is OU's learning management system. Log in at: https://canvas.ou.edu"
+    },
+    "OU Calendar (Holidays, Events)": {
+      "When does the Fall 2025 semester start?": "It starts on August 18, 2025. See academic calendar: https://www.ou.edu/registrar/calendar",
+      "When is OU graduation ceremony?": "Commencement is typically in May and December. Details: https://www.ou.edu/commencement",
+      "What are the university holidays?": "Holiday schedule is posted at https://www.ou.edu/hr/employee-relations/holidays",
+      "Where can I find OU events?": "Campus events are listed here: https://www.ou.edu/oucalendar",
+      "When is spring break?": "Spring break is typically mid-March. Check the current calendar: https://www.ou.edu/registrar/calendar",
+      "When is the last day to drop a class?": "Check academic deadlines here: https://www.ou.edu/registrar/calendar",
+      "When is the add/drop deadline for Spring 2025?": "Find it on the academic calendar: https://www.ou.edu/registrar/calendar"
+    },
+    "GPT_Fallback": "If no exact match is found in the above categories, the chatbot will use GPT to generate an appropriate response."
+  }
