@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import knowledgeBase from '../data/knowledgeBase.json';
+import knowledgeBase from '../data/KnowledgeBase.json'; 
 import axios from 'axios';
 import music from '../assets/ou_music.mp3';
 
