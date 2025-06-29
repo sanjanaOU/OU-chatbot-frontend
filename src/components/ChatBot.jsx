@@ -76,14 +76,16 @@ const ChatBot = () => {
   };
 
   const getGPTFallback = async (msg) => {
-    try {
-      const res = await axios.post('https://ou-chatbot-backend1.onrender.com/chat', { message: msg });
-      return res.data.reply;
-    } catch (err) {
-      console.error('❌ GPT Fallback Error:', err);
-      return "Sorry, I’m having trouble reaching GPT.";
-    }
-  };
+  try {
+    const res = await axios.post(' https://ouchatbot-backend.onrender.com', {
+      message: msg
+    });
+    return res.data.reply;
+  } catch (err) {
+    console.error('❌ GPT Fallback Error:', err);
+    return "Sorry, I’m having trouble reaching GPT.";
+  }
+};
 
   const startListening = () => {
     if (!('webkitSpeechRecognition' in window)) {
