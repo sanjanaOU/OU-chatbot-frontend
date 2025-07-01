@@ -1,16 +1,56 @@
-# React + Vite
+# Ask OU Chat – Chatbot Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, interactive, and voice-enabled chatbot interface for the University of Oklahoma. This chatbot can answer questions about tuition, deadlines, housing, advising, and more – using both a local knowledge base and an LLM fallback (LLaMA 3 via Ollama).
 
-Currently, two official plugins are available:
+![OU Chat UI](./preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- 💬 Chat UI with assistant + user messages
+- 📅 Chat history filtering by date
+- 🔊 Voice-to-text input (🎤 mic)
+- 🎶 Typing background music toggle
+- 💡 Smart suggestions for FAQs
+- 🧠 Uses local knowledge base first
+- 🤖 Fallback to LLaMA 3 (via backend)
+- 💾 Persistent local storage for chats
+- ♻️ Chat history restore per date
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+ou-chatbot-frontend/
+├── public/
+├── src/
+│ ├── assets/ # Music and images
+│ ├── components/
+│ │ └── ChatBot.jsx # Main chatbot UI
+│ ├── data/
+│ │ └── KnowledgeBase.json
+│ └── App.js # Entry point
+├── .env
+├── package.json
+└── README.md
+
+1. ## Setup Instructions
+npm install
+
+2. ## Backend Required
+http://localhost:5000/chat
+
+3. ## Run Locally
+   npm run dev
+
+Create a .env in root if needed : VITE_BACKEND_URL=http://localhost:5000
+Then in frontend code:
+const baseURL = import.meta.env.VITE_BACKEND_URL;
+
+Frontend will be available at: http://localhost:5173
 
 
-LIVE PROJECT LINK :
-https://ouchatbot1.netlify.app/
+### Dependencies
+React
+Axios
+Vite
+Tailwind CSS (or your custom styles)
+Web Speech API (voice input + speech synthesis)
+
+
