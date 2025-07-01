@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import knowledgeBase from '../data/KnowledgeBase.json'; 
+import knowledgeBase from '../data/KnowledgeBase.json'; // Capital K
 import axios from 'axios';
 import music from '../assets/ou_music.mp3';
 
@@ -77,15 +77,16 @@ const ChatBot = () => {
 
   const getGPTFallback = async (msg) => {
   try {
-    const res = await axios.post(' https://ouchatbot-backend.onrender.com', {
-      message: msg
+    const res = await axios.post('http://localhost:5000/chat', {
+      message: msg,
     });
     return res.data.reply;
   } catch (err) {
     console.error('❌ GPT Fallback Error:', err);
-    return "Sorry, I’m having trouble reaching GPT.";
+    return 'Sorry, I’m having trouble reaching GPT.';
   }
 };
+
 
   const startListening = () => {
     if (!('webkitSpeechRecognition' in window)) {
