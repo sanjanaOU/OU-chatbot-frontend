@@ -2,7 +2,7 @@
 
 A beautiful, interactive, and voice-enabled chatbot interface for the University of Oklahoma. This chatbot can answer questions about tuition, deadlines, housing, advising, and more – using both a local knowledge base and an LLM fallback (LLaMA 3 via Ollama).
 
-![OU Chat UI](./preview.png)
+![OU Chat UI](OU_Chatbot_UI.png)
 
 ##  Features
 
